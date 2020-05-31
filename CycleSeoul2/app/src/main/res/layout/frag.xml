@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:context="com.example.djeon.cycleseoul.FragList"
+    android:id="@+id/frags"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:width="4dp"
+        android:color="#de3d3d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="52dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:scrollbars="vertical"
+        android:text="Wonnam Course\n\nOverview: Bukchon, a neighborhood with palaces and hanok in the middle of the city.\n\nPath: Changgyeonggung Palace -> Gyedong-gil -> Samcheong-dong -> Jeongdok Library ->National Museum of Contemporary\n\nTIP: On the last Wednesday of every month, the museum is free!\n\nTime: 30minutes"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/background_dark"
+        android:background="@drawable/round_edge"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textGwang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/round_edge"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:scrollbars="vertical"
+        android:text="Gwanghwamun Course\n\nOverview: The 600-year-old center street of Seoul that was transformed from a vehicle-centered to a human-center place.\n\nPath: Gwanghwamun -> Young Choo Moon -> Gyeomun Gate -> Gwangmumun -> Gun Chun Moon\n\nTIP: You can borrow Hanbok, a traditional Korean clothe, and go around the city!\n\nTime: 35minutes"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/background_dark"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+
+    <TextView
+        android:id="@+id/textInsa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:radius="360dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="52dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:scrollbars="vertical"
+        android:background="@drawable/round_edge"
+        android:text="Insadong Course\n\nOverview: Insadong is a special street visited by people from all over the world who want to experience Korean culture in Seoul, the capital of Korea.\n\nPath: Seoul Plaza -> Chongaechon -> The Street of Youth -> Insadong Road ->An Gook Station\n\nTIP: Drop by Insadong Road for a full Korean Experience!\n\nTime: 30minutes"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/background_dark"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textChong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/round_edge"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:scrollbars="vertical"
+        android:text="Chongaechon Course\n\nOverview: Cheonggyecheon Stream is the center of the city industry. It has a space of 600 years of history and culture that flows through the life of the people of Seoul\n\nPath: Hong In Moon -> Fish-cooking alleys -> Jongno 5-ga-> Supyo Bridge -> The Street of the Youth -> Gwanghwamun\n\nTIP: Once a year there is a Light Choirong Festival. Don't miss it!\n\nTime: 30minutes"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/background_dark"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textWorld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/round_edge"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:scrollbars="vertical"
+        android:text="Sangam Course\n\nOverview: It is a course that can run to three World Cup Peace Park, Sky Park and Nanji Han River Park. Eat lunch in the food truck in front of the World Cup Stadium and go to the Peace Park!\n\nPath: World Cup Stadium -> Peace Park -> Sky Park -> Nanji Hangang Park\n\nTIP: Festival is held at Nanji Hangang Park every week!\n\nTime: 35minutes"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/background_dark"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+
+    <!--<ListView
+        android:id="@+id/listV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="130dp"
+        android:layout_marginEnd="147dp"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:fadeScrollbars="true"
+        android:focusable="true"
+        android:visibility="visible" />-->
+
+
+
+</RelativeLayout>

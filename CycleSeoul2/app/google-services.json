@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1086751493766",
+    "firebase_url": "https://seoul-bycicle.firebaseio.com",
+    "project_id": "seoul-bycicle",
+    "storage_bucket": "seoul-bycicle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086751493766:android:9e626347ac0618764f8b07",
+        "android_client_info": {
+          "package_name": "com.example.djeon.cycleseoul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086751493766-v0ad231vjguamkm4q1a0i7g8fdddr2m9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIc2ucAUSc6Y6gDUZ7LEhh0Y85qq_JwIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086751493766-v0ad231vjguamkm4q1a0i7g8fdddr2m9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

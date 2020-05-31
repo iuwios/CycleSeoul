@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.FitWindowsFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scroll"
+    tools:context="com.example.djeon.cycleseoul.MainActivity">
+
+
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        -->
+
+    <RelativeLayout
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bottomf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            app:menu="@menu/bottomf">
+
+        </android.support.design.widget.BottomNavigationView>
+
+        <Button
+            android:id="@+id/wonnam"
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/round_edge2"
+            android:text="Wonnam"
+            android:textColorHint="@android:color/black"
+            android:textStyle="bold"
+            tools:typeface="serif" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/wonnam"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/wonnam"
+            android:background="@drawable/round_edge2"
+            android:text="Chongaechon"
+            android:textColorHint="@android:color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button5"
+            android:background="@drawable/round_edge2"
+            android:text="Gwanghwamun"
+            android:textColorHint="@android:color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button3"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button3"
+            android:background="@drawable/round_edge2"
+            android:text="Insadong"
+            android:textColorHint="@android:color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button4"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button4"
+            android:background="@drawable/round_edge2"
+            android:text="Sangam"
+            android:textColorHint="@android:color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/neighbor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottomf"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/round_edge3"
+            android:text="Neighbor"
+            android:textColorHint="@android:color/black"
+            android:textStyle="bold"
+            tools:typeface="serif" />
+
+        <Button
+            android:id="@+id/share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottomf"
+            android:layout_marginEnd="14dp"
+            android:layout_toStartOf="@+id/bycicle"
+            android:background="@drawable/round_edge3"
+            android:text="Find"
+            android:textColorHint="@android:color/black"
+            android:textStyle="bold"
+            tools:typeface="serif" />
+
+        <Button
+            android:id="@+id/bycicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/share"
+            android:layout_alignBottom="@+id/share"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/round_edge3"
+            android:text="Bike Station"
+            android:textColorHint="@android:color/black"
+            android:textStyle="bold"
+            tools:typeface="serif" />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.FitWindowsFrameLayout>

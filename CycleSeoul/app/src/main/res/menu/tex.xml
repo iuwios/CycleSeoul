@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/map_route"
+        android:checkable="false"
+        android:title="Wonnam Course"
+        android:tooltipText="Bukchon, a neighborhood with palaces and hanok in the middle of the city. Starting from Changgyeonggung Palace, ride a bicycle along the Gyedong-gil to take a walk in the neighborhood. It can be confusing for a while as there are more people in hanbok than in casual clothes. There are many prop shops and restaurants that look like alleyways, so I often stop and take pictures. Naver maps show you the bike path kindly, but in fact, it's also the charm of a bike walk to get lost and head for a bike to a heart-to-heart alley. Samcheong-dong, the Jeongdok Library and return the National Museum of Contemporary Art in the ttareungi. On the last Wednesday of every month, the museum is free!"
+        android:visible="true" />
+
+
+</menu>
